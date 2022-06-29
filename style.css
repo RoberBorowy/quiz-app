@@ -21,9 +21,12 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
-
+.question {
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+}
 .answers {
-    width: 60%;
+    width: 80%;
     height: 40%;
     display: flex;
     justify-content: left;
@@ -40,7 +43,12 @@ body {
 
 .answers ul li {
     list-style-type: none;
+    
 
+}
+
+label {
+    margin-left: 1rem;
 }
 
 input,
@@ -68,6 +76,14 @@ input[type="radio"]:checked {
 .answer,
 .answer-message {
     font-size: 1.2rem;
+}
+
+.error {
+    color: red;
+}
+
+.positive {
+    color: green;
 }
 
 .btn {
