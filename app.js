@@ -90,8 +90,8 @@ btn.addEventListener("click", () => {
   ) {
     quizQueston++;
     loadQuestion();
-    message.innerText = "CORECT :)";
-    message.style.color = "#97BA00";
+    message.innerText = "CORRECT :)";
+    message.style.color = "#99BA00";
     setTimeout(deleteChecked, 2000);
   } else if (!answer || answer !== quizData[quizQueston].correct) {
     message.innerText = "WRONG, TRY AGAIN !!";
